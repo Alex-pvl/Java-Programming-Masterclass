@@ -1,6 +1,6 @@
 public class LeapYearCalculator {
     public static void main(String[] args) {
-        System.out.println(isLeapYear(1700));
+        System.out.println(isLeapYear(1600));
         System.out.println(isLeapYear(1800));
         System.out.println(isLeapYear(1900));
         System.out.println(isLeapYear(2100));
