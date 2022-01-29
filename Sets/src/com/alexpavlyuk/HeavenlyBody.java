@@ -41,7 +41,7 @@ public abstract class HeavenlyBody {
 
 	@Override
 	public final boolean equals(Object obj) {
-		if(this == obj) return true;
+		if (this == obj) return true;
 		if (!(obj instanceof HeavenlyBody)) return false;
 		HeavenlyBody that = (HeavenlyBody) obj;
 		return this.key.equals(that.key);
