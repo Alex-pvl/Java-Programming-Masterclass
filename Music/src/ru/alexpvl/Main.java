@@ -34,12 +34,15 @@ public class Main {
 
         datasource.createViewForSonsArtist();
 
-        List<SongArtist> songArtistList = datasource.querySongInfoView(scanner.nextLine());
-        for(SongArtist s : songArtistList) {
-            System.out.println(s.getArtistName() + "|" +
-                               s.getAlbumName() + "|" +
-                               s.getTrack());
-        }
+//        List<SongArtist> songArtistList = datasource.querySongInfoView(scanner.nextLine());
+//        for(SongArtist s : songArtistList) {
+//            System.out.println(s.getArtistName() + "|" +
+//                               s.getAlbumName() + "|" +
+//                               s.getTrack());
+//        }
+
+
+        datasource.insertSong("FORMULA", "OBLADAET", "PLAYERS CLUB", 1);
 
         datasource.close();
     }
